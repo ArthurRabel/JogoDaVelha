@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap')
+
+*
+    margin: 0
+    padding: 0
+
+body
+    background-color: rgb(37, 215, 228)
+
+.container
+    background-color: rgb(0, 238, 255)
+    width: 40vw
+    min-width: 270px
+    margin: auto
+    border-radius: 20px
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.233)
+
+#SectionVisor
+    display: flex
+    justify-content: space-between
+    margin: calc( 10px + 1vw) auto
+
+    p
+        font-size: calc(12px + 1.3vw)
+        margin: 3%
+        color: white
+        font-family: 'Zen Maru Gothic', sans-serif
+
+#sectionGame
+    padding: 1px 0
+    margin: -1px auto
+    &-Game 
+        margin-top:  2vw
+        div
+            display: flex
+            justify-content: center
+            span
+                -webkit-user-select: none  
+                -moz-user-select: none     
+                -ms-user-select: none  
+                user-select: none
+                color: white
+                font-size: calc(30px + 11vw)
+                display: flex
+                align-items: center
+                justify-content: center
+                width: 11vw
+                height: 11vw
+                min-width: 80px
+                min-height: 80px
+                background-color: rgb(0, 238, 255)
+
+            #B2
+                border: 2px solid white
+            #A2, #C2
+                border: solid
+                border-color: white
+                border-width: 0px 2px     
+            #B1, #B3 
+                border: solid
+                border-color: white
+                border-width: 2px 0px         
+
+    &-Button
+        display: flex
+        justify-content: center
+        input 
+            background-color: rgb(37, 215, 228)
+            font-size: calc(10px + 1.5vw)
+            color: white
+            font-family: 'Zen Maru Gothic', sans-serif
+            border-radius: 50px
+            margin: 1vw
+            padding: 0.8vw 2vw 1vw
+            border: none  
+            cursor: pointer         

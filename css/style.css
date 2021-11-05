@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #25d7e4;
+}
+
+.container {
+  background-color: #00eeff;
+  width: 40vw;
+  min-width: 270px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.233);
+}
+
+#SectionVisor {
+  display: flex;
+  justify-content: space-between;
+  margin: calc(10px + 1vw) auto;
+}
+#SectionVisor p {
+  font-size: calc(12px + 1.3vw);
+  margin: 3%;
+  color: white;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+#sectionGame {
+  padding: 1px 0;
+  margin: -1px auto;
+}
+#sectionGame-Game {
+  margin-top: 2vw;
+}
+#sectionGame-Game div {
+  display: flex;
+  justify-content: center;
+}
+#sectionGame-Game div span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+  font-size: calc(30px + 11vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11vw;
+  height: 11vw;
+  min-width: 80px;
+  min-height: 80px;
+  background-color: #00eeff;
+}
+#sectionGame-Game div #B2 {
+  border: 2px solid white;
+}
+#sectionGame-Game div #A2, #sectionGame-Game div #C2 {
+  border: solid;
+  border-color: white;
+  border-width: 0px 2px;
+}
+#sectionGame-Game div #B1, #sectionGame-Game div #B3 {
+  border: solid;
+  border-color: white;
+  border-width: 2px 0px;
+}
+#sectionGame-Button {
+  display: flex;
+  justify-content: center;
+}
+#sectionGame-Button input {
+  background-color: #25d7e4;
+  font-size: calc(10px + 1.5vw);
+  color: white;
+  font-family: "Zen Maru Gothic", sans-serif;
+  border-radius: 50px;
+  margin: 1vw;
+  padding: 0.8vw 2vw 1vw;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
