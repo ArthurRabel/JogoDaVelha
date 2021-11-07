@@ -34,7 +34,7 @@ body {
   margin: -1px auto;
 }
 #sectionGame-Game {
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 #sectionGame-Game div {
   display: flex;
@@ -74,14 +74,15 @@ body {
   justify-content: center;
 }
 #sectionGame-Button input {
-  background-color: #25d7e4;
+  background-color: #00eeff;
   font-size: calc(10px + 1.5vw);
   color: white;
   font-family: "Zen Maru Gothic", sans-serif;
   border-radius: 50px;
-  margin: 1vw;
+  margin: calc(1vw + 5px);
   padding: 0.8vw 2vw 1vw;
-  border: none;
+  border: calc(0.1vw + 1.5px) solid;
+  border-color: white;
   cursor: pointer;
 }
 
