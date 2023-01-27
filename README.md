@@ -1,11 +1,23 @@
-# JogoDaVelhaJS.github.io
+# Jogo Da Velha
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ArthurUndefined/JogoDaVelhaJS.github.io/blob/master/licence) 
 
----
+# Sobre o projeto
 
-  Acesse o link abaixo para ver o projeto 
-  
-  https://arthurundefined.github.io/JogoDaVelhaJS.github.io/
+<code>https://arthurundefined.github.io/JogoDaVelhaJS.github.io/</code>
 
----
+ O projeto de jogo da velha, para treinar javascript e logica de programação basica.
 
-<img src = "https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width = "200" />
+## Layout
+![jogo da velha imagem](https://github.com/ArthurUndefined/JogoDaVelhaJS.github.io/blob/master/img/JogoDaVelha.PNG)
+
+# Tecnologias utilizadas
+- HTML
+- SASS
+- CSS
+- JS
+
+## Implantação em produção
+- Front end web: Github Pages
+
+# Authors
+© Arthur Rabelo
