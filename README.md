@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-<code>https://arthurundefined.github.io/JogoDaVelhaJS.github.io/</code>
+<code>https://arthurundefined.github.io/JogoDaVelha/</code>
 
  O projeto de jogo da velha, para treinar javascript e logica de programação basica.
 
