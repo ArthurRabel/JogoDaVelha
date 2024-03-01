@@ -3,12 +3,12 @@
 
 # Sobre o projeto
 
-<code>https://arthurundefined.github.io/JogoDaVelha/</code>
+<code>https://arthurrabel.github.io/JogoDaVelha/</code>
 
  O projeto de jogo da velha, para treinar javascript e logica de programação basica.
 
 ## Layout
-![jogo da velha imagem](https://github.com/ArthurUndefined/JogoDaVelhaJS.github.io/blob/master/img/JogoDaVelha.PNG)
+![jogo da velha imagem](https://raw.githubusercontent.com/ArthurRabel/JogoDaVelha/master/img/JogoDaVelha.PNG)
 
 # Tecnologias utilizadas
 - HTML
